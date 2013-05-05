@@ -1,0 +1,22 @@
+{
+  "name": "Block Misspelled Websites",
+  "version": "1.0.3",
+  "description": "Blocks a website if the url is similar to one on a whitelist.",
+  "background": { "scripts": ["background.js"] },
+  "options_page": "blocked.html",
+  "page_action" :
+  {
+    "default_title" : "Blocks potential phishing websites based on a whitelist."
+  },
+  "permissions" : [
+    "tabs",
+    "webRequest",
+    "*://*/*",
+    "webRequestBlocking"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
