@@ -19,8 +19,8 @@
 var whitelist = new Array();
 whitelist[0] = 'steamcommunity.com';
 whitelist[1] = 'sourceop.com';
-whitelist[2] = 'youtube.com';
-whitelist[3] = 'tf2outpost.com';
+whitelist[2] = 'tf2outpost.com';
+whitelist[3] = 'dotaoutpost.com';
 
 function checkUrl(url) {
 	var parsed_url_hostname = parse_url(url).host;
