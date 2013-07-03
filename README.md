@@ -15,8 +15,8 @@ steamcommunity.com
 
 sourceop.com
 
-youtube.com
-
 tf2outpost.com
+
+dotaoutpost.com
 
 Currently this extension is in test stage so it is not possible to modify the domains on the whitelist.
